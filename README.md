@@ -3,6 +3,7 @@
 
 ## 1、安装cnocr等组件
 pip install cnocr tqdm csv -i -i https://pypi.tuna.tsinghua.edu.cn/simple/
+将.cnocr目录复制到用户目录下，命令为 cp -r .cnocr ~
 
 ## 2、解析手机打卡截图
 python parse_all_cn_ocr.py
